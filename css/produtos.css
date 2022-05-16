@@ -5,12 +5,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
     background-image: url(../img/bacground_dev2.jpg);
     overflow: hidden;
-   
+
 }
 
 .cabeca {
@@ -41,48 +40,4 @@ body{
 .info > a{
     text-decoration: none;
     color: black;
-}
-
-.conteudo {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    padding-top: 8%;
-    
-}
-
-.chamada{
-    display: flex;
-    flex-direction: column;
-  
-    
-    
-}
-.chamada > img{
-    width: 80% ;
-}
-.chamada > p {
-    width: 60%; 
-    font-family: 'Poppins', sans-serif;   
-    margin-left: 12%;
-    font-size: 25px;
-    margin-top: 15px;
-    color: white;
-}
-.personagem{
-    width: 30%;
-    margin-right: 10%;
-}
-
-button{
-    margin-top: 5%;
-    border-radius: 100px;
-    border: none;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 550;
-    color: rgb(14, 163, 14);
-    margin-left: 12%;
-    width: 200px;
-    height: 35px;
 }
