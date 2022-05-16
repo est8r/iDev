@@ -86,3 +86,11 @@ button{
     width: 200px;
     height: 35px;
 }
+
+.img-thumbnail{
+    background-color: rgba( 1, 1, 1, 0.1);
+}
+.btn{
+    background-color: rgba( 150, 210, 150, 0.9) ;
+    color: black;
+}
