@@ -8,9 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
-    background-color: black;
-    overflow: hidden;
-   
+    background-color: #0041d8;
 }
 
 .cabeca {
@@ -58,43 +56,18 @@ body{
     
     
 }
-.chamada > img{
-    width: 80% ;
-}
-.chamada > p {
-    width: 60%; 
-    font-family: 'Poppins', sans-serif;   
-    margin-left: 12%;
-    font-size: 25px;
-    margin-top: 15px;
-    color: white;
-}
-.personagem{
-    width: 30%;
-    margin-right: 10%;
-}
 
-button{
-    margin-top: 5%;
-    border-radius: 100px;
-    border: none;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 550;
-    color: rgb(14, 163, 14);
-    margin-left: 12%;
-    width: 200px;
-    height: 35px;
-}
 
 /* conteudo */
 
 .titulo{
+    font-family: "Poppins";
+    font-weight: 100;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
+    color: #2c2c2c;
     margin-top: 120px;
 }
 
@@ -102,16 +75,24 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     margin-top: 50px;
     gap: 100px;
     color: #ffffff;
 }
 
 .solucoes .box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-items: center;
     background-color: #006eff;
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 350px;
     border-radius: 20px;
     padding: 25px;
+}
+
+.solucoes .box .iconematch{
+    height: 150px;
 }
