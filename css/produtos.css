@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
-    background-image: url(../img/bacground_dev2.jpg);
+    background-color: black;
     overflow: hidden;
    
 }
@@ -85,4 +85,23 @@ button{
     margin-left: 12%;
     width: 200px;
     height: 35px;
+}
+
+/* conteudo */
+
+.solucoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 100px;
+    color: #ffffff;
+}
+
+.solucoes .box_entrevistas_simuladas{
+    background-color: aqua;
+    height: 500px;
+    height: 500px;
+    border-radius: 20px;
 }
