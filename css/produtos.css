@@ -71,7 +71,7 @@ body{
     margin-top: 120px;
 }
 
-.solucoes{
+.caixas{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -80,7 +80,7 @@ body{
     color: #ffffff;
 }
 
-.solucoes .box{
+.caixas .box{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -93,10 +93,23 @@ body{
     padding: 25px;
 }
 
-.solucoes .box .iconematch{
+.caixas .box .iconematch{
     height: 190px;
     background-color: white;
     background-size: px;
     border-radius: 45%;
     
 }
+
+
+/* conteudo de assinatura */
+
+.assinatura{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+    color: #ffffff;
+}
+
