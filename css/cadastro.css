@@ -26,10 +26,7 @@ body {
 
 main {
   width: 100%;
-}
-
-main > article {
-  height: 100px;
+  margin-top: 100px;
 }
 
 /*SECTION 1 ----------------------------------------------*/
@@ -57,7 +54,7 @@ main > article {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 246, 230);
+  background-color: rgb(255, 255, 255);
   width: 35%;
   height: 600px;
   align-items: center;
@@ -109,7 +106,7 @@ main > article {
   left: 1rem;
   top: 0.5rem;
   padding: 0 0.25rem;
-  background-color: rgb(255, 246, 230);
+  background-color: rgb(255, 255, 255);
   font-size: 13px;
   transition: 0.3s;
   color: rgb(104, 104, 104);
