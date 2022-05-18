@@ -5,5 +5,20 @@ h5{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
- 
+    margin-top:70px ;
+}
+body{
+    background-image: url(../img/bacground_dev2.jpg);
+}
+.imgLogo{
+    margin-top:70px;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
