@@ -67,7 +67,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #2c2c2c;
+    color: #fafafa;
     margin-top: 120px;
 }
 
@@ -94,5 +94,9 @@ body{
 }
 
 .solucoes .box .iconematch{
-    height: 150px;
+    height: 190px;
+    background-color: white;
+    background-size: px;
+    border-radius: 45%;
+    
 }
