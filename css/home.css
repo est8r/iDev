@@ -13,16 +13,6 @@ body{
    
 }
 
-.cabeca {
-    background-color: rgb(240, 240, 240);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-items: center;
-    height: 60px;
-    align-items: center;
-    
-}
 .logo{
     margin-left: 1%;
 }
@@ -46,17 +36,14 @@ body{
 .conteudo {
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: 40%;
     padding-top: 8%;
-    
+    padding-right: 2%;
 }
 
 .chamada{
     display: flex;
     flex-direction: column;
-  
-    
-    
 }
 .chamada > img{
     width: 80% ;
@@ -70,7 +57,7 @@ body{
     color: white;
 }
 .personagem{
-    width: 30%;
+    width: 5%;
     margin-right: 10%;
 }
 
@@ -93,4 +80,7 @@ button{
 .btn{
     background-color: rgba( 150, 210, 150, 0.9) ;
     color: black;
+}
+.logo{
+   width:100px ;
 }
