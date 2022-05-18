@@ -89,19 +89,29 @@ button{
 
 /* conteudo */
 
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 120px;
+}
+
 .solucoes{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     gap: 100px;
     color: #ffffff;
 }
 
-.solucoes .box_entrevistas_simuladas{
-    background-color: aqua;
-    height: 500px;
-    height: 500px;
+.solucoes .box{
+    background-color: #006eff;
+    height: 400px;
+    width: 400px;
     border-radius: 20px;
+    padding: 25px;
 }
