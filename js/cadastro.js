@@ -29,6 +29,13 @@ $(document).ready(function () {
           }
         ); //final func dados
       } //final if valida
+      else {
+        clean();
+        alert("Formato de CEP inválido.");
+      }
     } //final if !=
+    else {
+      clean();
+    }
   });
 });
