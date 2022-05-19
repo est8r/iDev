@@ -20,10 +20,11 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="#">Sobre</a>
+          <a class="nav-link" href="#">Produtos</a>
           <a class="nav-link" href="#">Contatos</a>
           <a class="nav-link" href="#">Login</a>
-          <a class="nav-link" href="#">Produtos</a>
         </div>
       </div>
     </div>
@@ -54,6 +55,25 @@
           <label class="label" for="">E-mail</label>
         </div>
 
+        <section class="rowA">
+
+          <div class="box separator">
+            <input id="senha" class="input_sec" placeholder=" " type="text">
+            <label class="label" for="">Senha</label>
+          </div>
+
+          <div class="box separator">
+            <input id="senha" class="input_sec" placeholder=" " type="">
+            <label class="label" for="">Confirme sua senha</label>
+          </div>
+
+        </section>
+
+        <div class="box">
+          <input id="rg" class="input_sec" placeholder=" " type="">
+          <label class="label" for="">RG</label>
+        </div>
+
         <div class="box">
           <input id="cep" class="input_sec" class="input_form" placeholder=" " type=" text">
           <label class="label" for="">CEP</label>
@@ -63,6 +83,11 @@
         <div class="box">
           <input id="rua" class="input_sec" placeholder=" " type="text">
           <label class="label" for="">Endereço</label>
+        </div>
+
+        <div class="box">
+          <input id="complemento" class="input_sec" placeholder=" " type="text">
+          <label class="label" for="">Complemento</label>
         </div>
 
         <section class="rowA">
@@ -78,14 +103,23 @@
           </div>
         </section>
 
-        <div class="box">
-          <input id="cidade" class="input_sec" placeholder=" " type="text">
-          <label class="label" for="">Cidade</label>
-        </div>
+        <section class="rowA">
+
+          <div class="box separator">
+            <input id="cidade" class="input_sec" placeholder=" " type="text">
+            <label class="label" for="">Cidade</label>
+          </div>
+
+          <div class="box separator">
+            <input id="estado" class="input_sec" placeholder=" " type="text">
+            <label class="label" for="">Estado</label>
+          </div>
+
+        </section>
 
         <div class="box check">
           <input id="radio" type="radio" name="terms">
-          <label class="terms" for="terms">Leia e aceite nossos termos de compromisso</label>
+          <a class="terms">Leia e aceite nossos termos de compromisso</a>
         </div>
         <input value="Enviar" type="submit">
 

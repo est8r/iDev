@@ -6,11 +6,12 @@
 }
 
 body {
-  background-image: url(../img/cortada.png);
+  background-image: url(../img/bacground_dev2.jpg);
   background-color: rgb(232, 224, 216);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position-y: bottom;
+  background-size: cover;
+
+  overflow: hidden;
 }
 
 /* HEADER ------------------------------------------------*/
@@ -43,10 +44,12 @@ main {
   width: 25%;
   margin-left: 50px;
   text-align: center;
+  color: white;
 }
 
 .one > p {
   text-align: center;
+  color: white;
 }
 
 .one > form {
@@ -54,9 +57,9 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(242, 242, 242);
   width: 35%;
-  height: 600px;
+  height: 650px;
   align-items: center;
   padding: 20px;
   border-radius: 20px;
@@ -66,12 +69,12 @@ main {
 .one > form > p {
   font-weight: 700;
   font-size: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .rowA {
   width: 80%;
-  display: inline-flex;
+  display: flex;
   margin-left: 3px;
 }
 
@@ -81,9 +84,13 @@ main {
 
 .box {
   width: 80%;
-  height: 36px;
+  height: 32px;
   position: relative;
   margin-top: 16px;
+}
+
+.box > input {
+  height: 32px;
 }
 
 .input_sec {
@@ -106,7 +113,7 @@ main {
   left: 1rem;
   top: 0.5rem;
   padding: 0 0.25rem;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(242, 242, 242);
   font-size: 13px;
   transition: 0.3s;
   color: rgb(104, 104, 104);
@@ -140,8 +147,8 @@ main {
   font-weight: 700;
   font-size: 16px;
   border-radius: 12px;
-  height: 40px;
-  margin-top: 40px;
+  height: 38px;
+  margin-top: 20px;
   border: none;
   color: rgb(237, 237, 237);
   cursor: pointer;
@@ -161,6 +168,7 @@ main {
   font-size: 10px;
   color: red;
   margin-left: 5px;
+  cursor: pointer;
 }
 
 .one > p {

@@ -3,6 +3,7 @@ $(document).ready(function () {
     $("#rua").val("");
     $("#bairro").val("");
     $("#cidade").val("");
+    $("#estado").val("");
   }
 
   $("#cep").blur(function () {
@@ -13,6 +14,7 @@ $(document).ready(function () {
         $("#rua").val("...");
         $("#bairro").val("...");
         $("#cidade").val("...");
+        $("#estado").val("...");
 
         $.getJSON(
           "https://viacep.com.br/ws/" + cep + "/json/?callback=?",
@@ -21,6 +23,7 @@ $(document).ready(function () {
               $("#rua").val(dados.logradouro);
               $("#bairro").val(dados.bairro);
               $("#cidade").val(dados.localidade);
+              $("#estado").val(dados.uf);
             } //end if.
             else {
               clean();
