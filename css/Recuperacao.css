@@ -1,6 +1,39 @@
-body{
-    background-image:url(../img/bacground_dev2.jpg);
+body {
+    background-image: url(../img/bacground_dev2.jpg);
 
-    
+
+
+
+}
+header{
+    font-family: 'Poppins';
+
 }
 
+
+.logo{
+    width: 100px;
+
+
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    height: 500px;
+    width: 450px;
+    border-radius: 20px;
+    margin-top: 200px;
+
+}
