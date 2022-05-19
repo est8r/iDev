@@ -39,6 +39,7 @@ body{
     height: 40%;
     padding-top: 8%;
     padding-right: 2%;
+    margin-bottom: 5%;
 }
 
 .chamada{
@@ -83,4 +84,8 @@ button{
 }
 .logo{
    width:100px ;
+}
+
+.rodape{
+    background-color: white;
 }
