@@ -4,9 +4,11 @@ body {
 
 
 
+
 }
 header{
     font-family: 'Poppins';
+
 
 }
 
@@ -20,7 +22,16 @@ header{
 
 main {
     display: flex;
+    flex-direction: column;
+
+}
+
+
+.titulo{
+    display: flex;
     justify-content: center;
+    margin-top: 150px;
+    color: white;
 }
 
 .container {
@@ -34,6 +45,37 @@ main {
     height: 500px;
     width: 450px;
     border-radius: 20px;
-    margin-top: 200px;
+    margin-top: 100px;
 
+}
+
+.perguntac{
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+.inemail{
+
+    width: 70%;
+
+}
+
+.btn btn-light{
+    padding: 20px 10px;
+}
+    
+
+
+
+footer{
+   position: absolute;
+   display: flex;
+   bottom: 0%;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+
+    
 }
