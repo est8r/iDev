@@ -42,3 +42,7 @@ $(document).ready(function () {
     }
   });
 });
+
+$("#enviar").addEventListener("click", (e) => {
+  e.preventDefault();
+});
