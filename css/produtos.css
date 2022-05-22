@@ -34,7 +34,6 @@ body{
 .info{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 500px;
     margin-right: 100px;
     font-size: 25px;
@@ -50,21 +49,14 @@ body{
     flex-direction: row;
     height: 100%;
     padding-top: 8%;
-    
 }
 
-.chamada{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-
-/* conteudo */
+/* conteudo de serviços */
 
 .titulo{
     font-family: "Poppins";
-    font-weight: 100;
+    font-size: 22px;
+    font-weight: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -80,14 +72,13 @@ body{
     margin-top: 50px;
     gap: 100px;
     color: #ffffff;
+    background-color: #006eff;
 }
 
 .caixas .box{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    align-items: center;
     background-color: #006eff;
     height: 600px;
     width: 350px;
@@ -95,12 +86,13 @@ body{
     padding: 25px;
 }
 
-.caixas .box .iconematch{
-    height: 190px;
-    background-color: white;
-    background-size: px;
-    border-radius: 45%;
-    
+.caixas .box .titulobox{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.caixas .box .descricaobox{
+    font-size: 20px;
 }
 
 
@@ -126,6 +118,7 @@ body{
     align-items: center;
     color: #ffffff;
     box-shadow: 0px 10px 50px #5f5f5f;
+    margin-bottom: 40px;
 }
 
 
