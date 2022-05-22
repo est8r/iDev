@@ -13,36 +13,42 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light fixed-top">
-    <div class="container-fluid">
-      <img class="navbar-brand logo" href="#" src="./img/logoidev.png">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Sobre</a>
-          <a class="nav-link" href="#">Contatos</a>
-          <a class="nav-link" href="#">Login</a>
-         <a class="nav-link" href="#">Produtos</a>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light ">
+      <div class="container-fluid">
+        <img class="navbar-brand logo img-fluid" href="#" src="./img/logoidev.png">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Sobre</a>
+            <a class="nav-link" href="#">Produtos</a>
+            <a class="nav-link" href="#">Contatos</a>
+            <a class="nav-link" href="#">Login</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
-  <div class="conteudo">
-    <div class="chamada">
-      <img src="./img/chamada_home.png" alt="Criando conexões">
-      <p>conectamos você à milhares de oportunidades no mundo da programação e desenvolvimento </p>
-      <button type="button" class="btn btn-outline-success">Inscreva-se</button>
+  <div class="container">
+    <div class="row">
+      <div class="chamada col-6 text-center">
+        <img src="./img/chamada_home.png" alt="Criando conexões">
+        <p>conectamos você à milhares de oportunidades no mundo da programação e desenvolvimento </p>
+        <button type="button" class="btn btn-outline-success">Inscreva-se</button>
+      </div>
+      <img src="./img/personagem" class="personagem col-6" alt="...">
     </div>
-    <img src="./img/personagem" class="personagemxz" alt="...">
   </div>
   <footer class="bg-secondary rodape p-1">
-    <p class="text-light m-2 text-center"> 2022 © todos os direitos reservados CNPJ - 88. 204. 720/2022-01.  </p>
+    <p class="text-light m-2 text-center"> 2022 © todos os direitos reservados CNPJ - 88. 204. 720/2022-01. </p>
 
-  <!-- JavaScript Bundle with Popper -->
+    <!-- JavaScript Bundle with Popper -->
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
