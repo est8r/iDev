@@ -7,10 +7,10 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-body{
-    background-image: url(../img/bacground_dev2.jpg);
-    overflow: hidden;
-   
+body {
+    background: linear-gradient(120deg,
+            #007bbc 0%,
+            #00f524 100%);
 }
 
 .logo{
