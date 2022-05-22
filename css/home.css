@@ -13,10 +13,10 @@ body {
     background: linear-gradient(120deg,
             #007bbc 0%,
             #00f524 100%);
-}
+}          
 
 .logo {
-    margin-left: 1%;
+    /* margin-left: 1%; */
 }
 
 .logo>img {
@@ -39,13 +39,13 @@ body {
 }
 
 .chamada>img {
-    width: 80%;
+    /* width: 80%; */
 }
 
 .chamada>p {
-    width: 60%;
+    /* width: 60%; */
     font-family: 'Poppins', sans-serif;
-    margin-left: 12%;
+    /* margin-left: 12%; */
     font-size: 25px;
     margin-top: 15px;
     color: white;
@@ -81,4 +81,5 @@ button {
 
 .rodape {
     background-color: white;
+    display:flex ;
 }
