@@ -145,3 +145,11 @@ body{
     gap: 10px;
     color: #ffffff;
 }
+
+.rodape {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    bottom: 0%;
+    width: 100%;
+}
