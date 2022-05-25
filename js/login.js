@@ -16,6 +16,8 @@ submitButton.addEventListener('click', (e) => {
     } else if (emailValue.indexOf('@') == -1 || emailValue.indexOf('.') == -1) {
         errorReport.textContent = "Ops! Parece que seu email está errado.";
         errorReport.classList = 'error';
-    };
-
+    } else {
+        errorReport.textContent = "Você está logado(a)!.";
+        errorReport.classList = 'confirm';
+    }
 });
