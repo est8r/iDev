@@ -1,6 +1,7 @@
 # iDev
 
-![idev_bannet](https://user-images.githubusercontent.com/83258570/170375294-48b584b6-bfa1-43cb-8d47-b92aea5c0975.jpg)
+
+![idev_bannet](https://user-images.githubusercontent.com/83258570/170381927-8c9226cd-678e-43ce-8bdf-8780dddfe018.jpg)
 
 
 iDev é uma plataforma de facilitação de contração entre empresas e desenvolvedores do mercado de tecnologia. Com nossas ferramentas, oferecemos: desenvolvimento em tecnologias com trilhas de aprendizagem para novos programadores, ux/ui designers, analistas de qualidade, tech lead's e muito mais. Nossa plataforma dispõe de mentorias de carreira, testes de hard e soft skills com fins de aprimoramento para o mercado de trabalho, além de uma equipe especializada em simulação de entrevistas que entrega feedbacks positivos e a melhorar para você mandar muito bem na entrevista real.
