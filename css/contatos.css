@@ -34,3 +34,11 @@ h2{
     margin-left: 15px;
     height: 30px;
 }
+.rodape {
+    background-color: white;
+    display:flex ;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    justify-content: center;
+}
