@@ -14,7 +14,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">iDev</a>
+      <img class="logo" src="../img/logoidev.png" alt="">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,7 +39,7 @@
         <section class="rowA">
 
           <div class="box separator">
-            <input id="nome" class="input_sec" placeholder=" " type="text">
+            <input required id="nome" class="input_sec" placeholder=" " type="text">
             <label class="label" for="">Nome</label>
           </div>
 
@@ -51,31 +51,31 @@
         </section>
 
         <div class="box">
-          <input id="email" class="input_sec" class="input_form" placeholder=" " type="email">
+          <input required id="floatingInput" class="input_sec" class="input_form" placeholder=" " type="email">
           <label class="label" for="">E-mail</label>
         </div>
 
         <section class="rowA">
 
           <div class="box separator">
-            <input id="senha" class="input_sec" placeholder=" " type="text">
+            <input required id="floatingPassword" class="input_sec" placeholder=" " type="password">
             <label class="label" for="">Senha</label>
           </div>
 
           <div class="box separator">
-            <input id="senha" class="input_sec" placeholder=" " type="">
+            <input required id="floatingPasswordTwo" class="input_sec" placeholder=" " type="password">
             <label class="label" for="">Confirme sua senha</label>
           </div>
 
         </section>
 
         <div class="box">
-          <input id="rg" class="input_sec" placeholder=" " type="">
+          <input required id="rg" class="input_sec" placeholder=" " type="">
           <label class="label" for="">RG</label>
         </div>
 
         <div class="box">
-          <input id="cep" class="input_sec" class="input_form" placeholder=" " type=" text">
+          <input required id="cep" class="input_sec" class="input_form" placeholder=" " type=" text">
           <label class="label" for="">CEP</label>
         </div>
 
@@ -118,16 +118,24 @@
         </section>
 
         <div class="box check">
-          <input id="radio" type="radio" name="terms">
+          <input required id="radio" type="radio" name="terms">
           <a class="terms">Leia e aceite nossos termos de compromisso</a>
         </div>
-        <input id="enviar" value="Enviar" type="submit">
+
+        <div id="show"></div>
+
+        <input id="submit" value="Enviar" type="submit">
+        <div id="msg"></div>
 
       </form>
       <p>Receba notícias exclusivas até o dia de lançamento sobre a maior plataforma de conexão para desenvolvedores de todo o Brasil!</p>
     </section>
 
   </main>
+
+  <footer class="bg-secondary rodape p-1">
+    <p class="text-light m-2 texto"> 2022 © todos os direitos reservados CNPJ - 88. 204. 720/2022-01. </p>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

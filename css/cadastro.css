@@ -23,11 +23,16 @@ body {
 .navbar-nav > a {
   color: black;
 }
+
+.logo {
+  width: 100px;
+}
+
 /*MAIN -------------------------------------------------------*/
 
 main {
   width: 100%;
-  margin-top: 92px;
+  margin-top: 75px;
 }
 
 /*SECTION 1 ----------------------------------------------*/
@@ -174,4 +179,13 @@ main {
 .one > p {
   width: 25%;
   margin-right: 40px;
+}
+
+.rodape {
+  background-color: white;
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  justify-content: center;
 }
