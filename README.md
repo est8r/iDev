@@ -3,14 +3,17 @@
 
 ![idev_bannet](https://user-images.githubusercontent.com/83258570/170381927-8c9226cd-678e-43ce-8bdf-8780dddfe018.jpg)
 
-
+## ❓ O que é "iDev"?
 iDev é uma plataforma de facilitação de contração entre empresas e desenvolvedores do mercado de tecnologia. Com nossas ferramentas, oferecemos: desenvolvimento em tecnologias com trilhas de aprendizagem para novos programadores, ux/ui designers, analistas de qualidade, tech lead's e muito mais. Nossa plataforma dispõe de mentorias de carreira, testes de hard e soft skills com fins de aprimoramento para o mercado de trabalho, além de uma equipe especializada em simulação de entrevistas que entrega feedbacks positivos e a melhorar para você mandar muito bem na entrevista real.
 
 
-### Desenvolvimento de Marca
+### 🎯 Desenvolvimento de Marca
 
-Com objetivo de criar conexão entre pessoas, adotamos circulos se conectando com linhas para o conceito de marca. Percebe-se que nenhum dos circulos da marca está desconectado, criando assim uma comunidade de oportunidades e desenvolvimento bilateral.
 
+![idev_fontes_cor](https://user-images.githubusercontent.com/83258570/170386396-aadcc93a-ec64-468a-8413-c1cc066f037a.jpg)
+
+
+Com objetivo de criar conexão entre pessoas, adotamos circulos se conectando com linhas para o conceito de marca. Percebe-se que nenhum dos circulos da marca está desconectado, criando assim uma comunidade de oportunidades e desenvolvimento bilateral. As cores azul e verde claro são utilizadas, baseado com estudo de psicologia das cores, como gradiente com objetivo de trazer tranquilidade, equilíbrio e fidelidade.
 
 ### Tecnologias
 
