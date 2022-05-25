@@ -100,3 +100,12 @@ body {
 .fpassword {
   padding: 20px;
 }
+
+.rodape {
+  background-color: white;
+  display:flex ;
+  position: absolute;
+  justify-content: center;
+  bottom: 0%;
+  width: 100%;
+}
