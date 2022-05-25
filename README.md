@@ -15,7 +15,7 @@ O projeto conta com o uso das tecnologias:
 - [x] Bootstrap
 
 
-## 🤝 Colaboradores
+## 🤝 Squad de Desenvolvimento
 
 Os usuários responsáveis por este projeto:
 
@@ -68,5 +68,5 @@ Os usuários responsáveis por este projeto:
 
 ### 🔗 Copywriting
 
-Projeto criado para fins educacionais do módulo 2 do curso de Desenvolvimento Web da Resilia Educação. © 2022, todos os direitos reservados.
+"iDev" é um projeto fictício, sem registro de marca, criado para fins educacionais do módulo 2 do curso de Desenvolvimento Web da Resilia Educação. © 2022, todos os direitos reservados.
 
