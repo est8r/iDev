@@ -7,9 +7,17 @@
 }
 
 body{
+<<<<<<< HEAD
     background-image: url(../img/bacground_dev2.jpg);
     overflow: hidden;
 
+=======
+    background-color: #e2e2e2;
+}
+
+.logo{
+    width: 100px;
+>>>>>>> 0511763e9498d29797bf5b861bbea49513b642ca
 }
 
 .cabeca {
@@ -31,7 +39,6 @@ body{
 .info{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 500px;
     margin-right: 100px;
     font-size: 25px;
@@ -40,4 +47,117 @@ body{
 .info > a{
     text-decoration: none;
     color: black;
+<<<<<<< HEAD
+=======
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding-top: 8%;
+}
+
+/* conteudo de serviços */
+
+.titulo{
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #606060;
+    margin-top: 120px;
+}
+
+.caixas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+    color: #ffffff;
+    background-color: #006eff;
+}
+
+.caixas .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #006eff;
+    height: 600px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.caixas .box .titulobox{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.caixas .box .descricaobox{
+    font-size: 20px;
+}
+
+
+/* conteudo sobre os planos */
+
+.secao_dois{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.secao_dois .assinatura{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: #006eff;
+    height: 700px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 25px;
+    align-items: center;
+    color: #ffffff;
+    box-shadow: 0px 10px 50px #5f5f5f;
+    margin-bottom: 40px;
+}
+
+
+.secao_dois .assinatura .tipo_de_ass{
+    font-family: "Poppins";
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.secao_dois .assinatura .preco{
+    font-family: "Poppins";
+    font-size: 45px;
+    border: #004298;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+ .lista{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    border-radius: 20px;
+    gap: 10px;
+    color: #ffffff;
+}
+
+.rodape {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    bottom: 0%;
+    width: 100%;
+>>>>>>> 0511763e9498d29797bf5b861bbea49513b642ca
 }

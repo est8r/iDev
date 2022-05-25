@@ -1,0 +1,44 @@
+h5{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:30px ;
+}
+body{
+    background-image: url(../img/bacground_dev2.jpg);
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imglogo{
+    height: 30px;
+}
+.botaolinkedin>img{
+    margin-left: 50px;
+    height: 30px;
+
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.botaogithub>img{
+    margin-left: 15px;
+    height: 30px;
+}
+.rodape {
+    background-color: white;
+    display:flex ;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    justify-content: center;
+}

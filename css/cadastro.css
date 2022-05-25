@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/bacground_dev2.jpg);
+  background-color: rgb(232, 224, 216);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: hidden;
+}
+
+/* HEADER ------------------------------------------------*/
+
+.container-fluid > a {
+  color: black;
+}
+
+.navbar-nav > a {
+  color: black;
+}
+/*MAIN -------------------------------------------------------*/
+
+main {
+  width: 100%;
+  margin-top: 92px;
+}
+
+/*SECTION 1 ----------------------------------------------*/
+
+.one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.one > h2 {
+  width: 25%;
+  margin-left: 50px;
+  text-align: center;
+  color: white;
+}
+
+.one > p {
+  text-align: center;
+  color: white;
+}
+
+.one > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(242, 242, 242);
+  width: 35%;
+  height: 650px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.one > form > p {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.rowA {
+  width: 80%;
+  display: flex;
+  margin-left: 3px;
+}
+
+.separator > input {
+  width: 98%;
+}
+
+.box {
+  width: 80%;
+  height: 32px;
+  position: relative;
+  margin-top: 16px;
+}
+
+.box > input {
+  height: 32px;
+}
+
+.input_sec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  font-size: 13px;
+  padding-left: 10px;
+  border: 1px solid rgb(165, 165, 165);
+  outline: none;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.label {
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  padding: 0 0.25rem;
+  background-color: rgb(242, 242, 242);
+  font-size: 13px;
+  transition: 0.3s;
+  color: rgb(104, 104, 104);
+}
+
+.input_sec:focus + .label {
+  top: -0.5rem;
+  left: 0.8rem;
+  color: blue;
+  font-size: 11px;
+  font-weight: 500;
+  z-index: 10;
+}
+
+.input_sec:focus {
+  border: 2px solid rgb(81, 177, 81);
+}
+
+.input_sec:not(:placeholder-shown).input_sec:not(:focus) + .label {
+  top: -0.5rem;
+  left: 0.8rem;
+  color: blue;
+  font-size: 11px;
+  font-weight: 500;
+  z-index: 10;
+}
+
+.one > form input[type="submit"] {
+  width: 60%;
+  background-color: #6d79c7;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 12px;
+  height: 38px;
+  margin-top: 20px;
+  border: none;
+  color: rgb(237, 237, 237);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.one > form input[type="submit"]:hover {
+  background-color: #554e90;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+}
+
+.terms {
+  font-size: 10px;
+  color: red;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.one > p {
+  width: 25%;
+  margin-right: 40px;
+}
