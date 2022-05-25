@@ -1,22 +1,39 @@
 *,
 *::after,
 *::before {
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url(./responsivo.css);
 
 body {
     background: linear-gradient(120deg,
-            #007bbc 20%,
-            #00f524 80%);
-}
+            #007bbc 0%,
+            #00f524 100%);
+            background-repeat: no-repeat;
+            background-size: 100%, 100%;
+
+
+            
+
+}          
+
+
 
 .logo {
-    /* margin-left: 1%; */
+    margin-left: 1%;
 }
 
 .logo>img {
@@ -36,13 +53,11 @@ body {
 .chamada {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    width: 50%;
-    height: 50%;
 }
 
 .chamada>img {
-    /* width: 80%; */
+    width: 80%;
+    
 }
 
 .chamada>p {
@@ -67,7 +82,6 @@ button {
     width: 200px;
     height: 35px;
 }
-
 .btn {
     background-color: rgba(150, 210, 150, 0.9);
     color: black;
@@ -83,18 +97,20 @@ button {
     width: 100px;
 }
 
-#personagem{
-    width: 100px;
-    height: 100px;
-}
 .rodape {
+    background-color: white;
+    display:flex ;
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
-    height: 50px;
 }
-
-.row{
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 100px;
     width: 100%;
-    height: 90vh;
+}
+.foto{
+   margin-left: 5%;
 }
