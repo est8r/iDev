@@ -6,6 +6,12 @@
 
 iDev é uma plataforma de facilitação de contração entre empresas e desenvolvedores do mercado de tecnologia. Com nossas ferramentas, oferecemos: desenvolvimento em tecnologias com trilhas de aprendizagem para novos programadores, ux/ui designers, analistas de qualidade, tech lead's e muito mais. Nossa plataforma dispõe de mentorias de carreira, testes de hard e soft skills com fins de aprimoramento para o mercado de trabalho, além de uma equipe especializada em simulação de entrevistas que entrega feedbacks positivos e a melhorar para você mandar muito bem na entrevista real.
 
+
+### Desenvolvimento de Marca
+
+Com objetivo de criar conexão entre pessoas, adotamos circulos se conectando com linhas para o conceito de marca. Percebe-se que nenhum dos circulos da marca está desconectado, criando assim uma comunidade de oportunidades e desenvolvimento bilateral.
+
+
 ### Tecnologias
 
 O projeto conta com o uso das tecnologias:
