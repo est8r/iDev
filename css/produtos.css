@@ -5,14 +5,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body{
+<<<<<<< HEAD
+    background-image: url(../img/bacground_dev2.jpg);
+    overflow: hidden;
+
+=======
     background-color: #e2e2e2;
 }
 
 .logo{
     width: 100px;
+>>>>>>> 0511763e9498d29797bf5b861bbea49513b642ca
 }
 
 .cabeca {
@@ -42,6 +47,8 @@ body{
 .info > a{
     text-decoration: none;
     color: black;
+<<<<<<< HEAD
+=======
 }
 
 .conteudo {
@@ -152,4 +159,5 @@ body{
     justify-content: center;
     bottom: 0%;
     width: 100%;
+>>>>>>> 0511763e9498d29797bf5b861bbea49513b642ca
 }
