@@ -1,6 +1,12 @@
 h5{
     text-align: center;
 }
+
+.titulo{
+    font-family: "Poppins";
+    font-size: 22px;
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -14,13 +20,14 @@ h1{
     text-align: center;
     color: white;
     margin-top: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Poppins";
 }
 .imglogo{
     height: 30px;
 }
 .botaolinkedin>img{
     margin-left: 50px;
+    margin-top: 20px;
     height: 30px;
 
 }
@@ -41,4 +48,9 @@ h2{
     bottom: 0%;
     width: 100%;
     justify-content: center;
+}
+
+.card_title{
+    font-family: "Poppins";
+    font-size: 19px;
 }
