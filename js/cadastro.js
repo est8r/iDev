@@ -46,19 +46,3 @@ $(document).ready(function () {
 $("#submit").addEventListener("click", (e) => {
   e.preventDefault();
 });
-
-let passOne = $("#floatingPasswordTwo").val();
-let passTwo = $("#floatingPassword").val();
-const show = $("#show");
-
-function validar() {
-  if (passOne == "" || passOne.length <= 5) {
-    alert("Preencha o campo senha com no minimo 6 caracteres");
-    passOne.focus();
-    return false;
-  } else if (passOne != passTwo) {
-    alert("senhas diferentes");
-    passOne.focus();
-    return false;
-  }
-}
