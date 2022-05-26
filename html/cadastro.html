@@ -36,6 +36,18 @@
 
       <form onsubmit="comparaOk();" action="">
         <p>Cadastre-se</p>
+        <div class="box check choices">
+
+          <label class="option" for="juridica">
+            <input name="juridica" type="radio">
+            Pessoa Jurídica</label>
+
+
+          <label class="option" for="fisica">
+            <input name="fisica" type="radio">
+            Pessoa Física</label>
+
+        </div>
         <section class="rowA">
 
           <div class="box separator">
@@ -73,7 +85,7 @@
 
         <div class="box">
           <input required id="rg" class="input_sec" placeholder=" " type="">
-          <label class="label" for="">RG</label>
+          <label class="label" for="">RG ou CNPJ</label>
         </div>
 
         <div class="box">
