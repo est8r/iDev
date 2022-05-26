@@ -24,7 +24,7 @@ body {
   display: flex;
   align-items: center;
   background-size: cover;
-  background: linear-gradient(-120deg,#003cff 0%, #09ff00 100%);
+  background: linear-gradient(-120deg, #003cff 0%, #09ff00 100%);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -48,10 +48,11 @@ body {
 
 .b-example-divider {
   height: 3rem;
-  background-color: rgba(0, 0, 0, .1);
-  border: solid rgba(0, 0, 0, .15);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
 .b-example-vr {
@@ -61,7 +62,7 @@ body {
 }
 
 .bi {
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
   fill: currentColor;
 }
 
@@ -96,7 +97,7 @@ body {
 }
 
 .form-signin input[type="email"] {
-  margin-bottom: -1px;
+  margin-bottom: 5px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -123,9 +124,13 @@ body {
   padding: 20px;
 }
 
+.forgotpassword {
+  margin-bottom: 10px;
+}
+
 .rodape {
   background-color: white;
-  display:flex ;
+  display: flex;
   position: absolute;
   justify-content: center;
   bottom: 0%;
