@@ -1,81 +1,55 @@
 body {
-    background-image: url(../img/bacground_dev2.jpg);
-
-
-
-
-
-}
-header{
-    font-family: 'Poppins';
-
-
+  background-image: url(../img/bacground_dev2.jpg);
 }
 
-
-.logo{
-    width: 100px;
-
-
+.logo {
+  width: 100px;
 }
-
 
 main {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
-
-.titulo{
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
-    color: white;
+.titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  color: white;
 }
 
 .container {
-    font-family: 'Poppins';
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    padding: 20px;
-    height: 500px;
-    width: 450px;
-    border-radius: 20px;
-    margin-top: 100px;
-
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  height: 500px;
+  width: 450px;
+  border-radius: 20px;
+  margin-top: 50px;
 }
 
-.perguntac{
-    text-align: center;
-    font-size: 22px;
-    padding: 10px;
-
+.perguntac {
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
 }
 
-.inemail{
-
-    width: 70%;
-
+.inemail {
+  width: 70%;
 }
 
-.btn btn-light{
-    padding: 20px 10px;
+.btn btn-light {
+  padding: 20px 10px;
 }
-    
 
-
-
-footer{
-   position: absolute;
-   display: flex;
-   bottom: 0%;
-   width: 100%;
-   align-items: center;
-   justify-content: center;
-
-    
+footer {
+  position: absolute;
+  display: flex;
+  bottom: 0%;
+  width: 100%;
+  justify-content: center;
 }
