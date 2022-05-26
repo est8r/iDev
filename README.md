@@ -1,4 +1,4 @@
-# iDev
+<h1 align="center">iDev</h1>
 
 
 ![idev_bannet](https://user-images.githubusercontent.com/83258570/170381927-8c9226cd-678e-43ce-8bdf-8780dddfe018.jpg)
@@ -18,19 +18,24 @@ Com objetivo de criar conexão entre pessoas, adotamos circulos se conectando co
 ![plataforma](https://user-images.githubusercontent.com/83258570/170403985-9dbe66b4-3e04-4726-9f68-e892fd0daf21.png)
 
 
-### Tecnologias utilizadas:
 
-O projeto conta com o uso das tecnologias:
+<h2 align="center"><strong>Tecnologias Utilizadas</strong></h2>
 
-- [x] HTML
-- [x] CSS
-- [x] JavaScript
-- [x] Bootstrap
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
 
 
 ## 🤝 Squad de Desenvolvimento
 
-Os usuários responsáveis por este projeto:
+Conheça a equipe responsável pelo projeto:
 
 <table>
   <tr>
@@ -75,9 +80,9 @@ Os usuários responsáveis por este projeto:
       </a>
     </td>
     </td>
-    
   </tr>
 </table>
+
 
 ### 🔗 Copywriting
 
