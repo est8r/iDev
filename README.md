@@ -15,7 +15,10 @@ iDev é uma plataforma de facilitação de contração entre empresas e desenvol
 
 Com objetivo de criar conexão entre pessoas, adotamos circulos se conectando com linhas para o conceito de marca. Percebe-se que nenhum dos circulos da marca está desconectado, criando assim uma comunidade de oportunidades e desenvolvimento bilateral. As cores azul e verde claro são utilizadas, baseado com estudo de psicologia das cores, como gradiente com objetivo de trazer tranquilidade, equilíbrio e fidelidade.
 
-### Tecnologias
+![plataforma](https://user-images.githubusercontent.com/83258570/170403985-9dbe66b4-3e04-4726-9f68-e892fd0daf21.png)
+
+
+### Tecnologias utilizadas:
 
 O projeto conta com o uso das tecnologias:
 
