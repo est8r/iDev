@@ -7,17 +7,11 @@
 }
 
 body{
-<<<<<<< HEAD
-    background-image: url(../img/bacground_dev2.jpg);
-    overflow: hidden;
-
-=======
     background-color: #e2e2e2;
 }
 
 .logo{
     width: 100px;
->>>>>>> 0511763e9498d29797bf5b861bbea49513b642ca
 }
 
 .cabeca {
@@ -47,8 +41,6 @@ body{
 .info > a{
     text-decoration: none;
     color: black;
-<<<<<<< HEAD
-=======
 }
 
 .conteudo {
@@ -101,7 +93,6 @@ body{
 .caixas .box .descricaobox{
     font-size: 20px;
 }
-
 
 /* conteudo sobre os planos */
 
@@ -159,5 +150,4 @@ body{
     justify-content: center;
     bottom: 0%;
     width: 100%;
->>>>>>> 0511763e9498d29797bf5b861bbea49513b642ca
 }
