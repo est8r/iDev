@@ -35,7 +35,7 @@ Os usuários responsáveis por este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/wellisonsales/">
         <img src="https://avatars.githubusercontent.com/u/83258570?v=4" width="100px;" alt="Foto de Wellison Sales no Github"/><br>
         <sub>
           <b>Wellison Sales</b>
@@ -43,7 +43,7 @@ Os usuários responsáveis por este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/%C3%A9lica-dias-a4989116b/">
         <img src="https://avatars.githubusercontent.com/u/102865744?v=4" width="100px;" alt="Foto de Elica Dias no Github"/><br>
         <sub>
           <b>Élica Dias</b>
@@ -51,7 +51,7 @@ Os usuários responsáveis por este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/guilherme-cordeiro-da-mata/">
         <img src="https://avatars.githubusercontent.com/u/102765157?v=4" width="100px;" alt="Foto de Guilherme da Mata no Github"/><br>
         <sub>
           <b>Guilherme da Mata</b>
@@ -60,14 +60,14 @@ Os usuários responsáveis por este projeto:
     </td>
     <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/natalin-de-oliveira-santos-junior-4a497b42/">
         <img src="https://avatars.githubusercontent.com/u/93950955?v=4" width="100px;" alt="Foto de Junior Natalin no Github"/><br>
         <sub>
           <b>Junior Natalin</b>
         </sub>
       </a>
       <td align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/ester-messias-08b706177/">
         <img src="https://avatars.githubusercontent.com/u/87023023?v=4" width="100px;" alt="Foto de Wellison Sales no Github"/><br>
         <sub>
           <b>Ester Messias</b>
