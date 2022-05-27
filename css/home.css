@@ -81,6 +81,7 @@ body {
   width: 100px;
 }
 
+
 .rodape {
   background-color: white;
   display: flex;
@@ -99,4 +100,17 @@ body {
 .foto {
   display: flex;
   justify-content: end;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 60px;
+}
+
+.sobre > img {
+  height: 300px;
 }
