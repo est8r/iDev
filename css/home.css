@@ -104,6 +104,7 @@ body {
 .sobre {
   display: flex;
   flex-direction: row;
+  height: 400px;
   justify-content: center;
   align-items: center;
   gap: 30px;
