@@ -1,57 +1,63 @@
-h5{
-    text-align: center;
+h5 {
+  text-align: center;
 }
 
-.titulo{
-    font-family: "Poppins";
-    font-size: 22px;
+.titulo {
+  font-family: "Poppins";
+  font-size: 22px;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top:30px ;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
 }
-body{
-    background-image: url(../img/bacground_dev2.jpg);
+body {
+  background-image: url(../img/bacground_dev2.jpg);
 }
-h1{
-    text-align: center;
-    color: white;
-    margin-top: 100px;
-    font-family: "Poppins";
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  font-family: "Poppins";
 }
-.imglogo{
-    height: 30px;
-}
-
-.botaolinkedin>img{
-    margin-left: 50px;
-    height: 30px;
+.imglogo {
+  height: 30px;
 }
 
-
-h2{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    margin-top: 30px;
+.botaolinkedin > img {
+  margin-left: 50px;
+  height: 30px;
 }
-.botaogithub>img{
-    margin-left: 15px;
-    height: 30px;
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 160px;
+}
+
+.here {
+  font-weight: 600;
+  color: black;
+}
+
+.botaogithub > img {
+  margin-left: 15px;
+  height: 30px;
 }
 .rodape {
-    background-color: white;
-    display:flex ;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    justify-content: center;
+  background-color: white;
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  justify-content: center;
 }
 
-.card_title{
-    font-family: "Poppins";
-    font-size: 19px;
+.card_title {
+  font-family: "Poppins";
+  font-size: 19px;
 }

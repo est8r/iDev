@@ -20,7 +20,6 @@ html {
   width: 100px;
 }
 
-
 body {
   display: flex;
   align-items: center;
@@ -91,6 +90,11 @@ body {
   padding: 50px;
   background-color: #ffffff;
   border-radius: 20px;
+}
+
+.here {
+  font-weight: 600;
+  color: black;
 }
 
 .form-signin .form-floating:focus-within {
